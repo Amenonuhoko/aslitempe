@@ -8,9 +8,14 @@ nav {
 #navigation {
 	display: none;
 	flex-direction: column;
-	align-items: flex-end;
-	margin: 10px 10px;
 	font-size: 3rem;
+	width: 100%;
+}
+#navigation a {
+	border-bottom: 3px solid;
+	display: block;
+	width: 100%;
+	text-align: end;
 }
 .navburger {
 	margin-right: 5px;
