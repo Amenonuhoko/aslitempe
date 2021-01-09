@@ -1,9 +1,12 @@
+const navButton = document.querySelector(".navbutton");
+
 const navFunction = () => {
-	var x = document.getElementById("navigation");
-	if (x.style.display === "flex") {
-		x.style.display = "none";
+	const navigation = document.getElementById("navigation");
+	if (navigation.style.display === "flex") {
+		navigation.style.display = "none";
 	} else {
-		x.style.display = "flex";
+		navigation.style.display = "flex";
 	}
 	return false;
 };
+navButton.addEventListener("click", navFunction);
