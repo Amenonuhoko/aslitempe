@@ -1,0 +1,22 @@
+header {
+	width: 100%;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+#navigation {
+	display: none;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 10px 10px;
+	font-size: 3rem;
+}
+.navburger {
+	margin-right: 5px;
+}
+.logo {
+	width: 100px;
+	height: 100px;
+	background-color: #f6f6f6;
+}
